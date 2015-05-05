@@ -1,3 +1,3 @@
 class Link < ActiveRecord::Base
-	belong_to :users
+	belongs_to :user
 end
